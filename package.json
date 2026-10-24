@@ -1,0 +1,11 @@
+{
+  "name": "atelier-theme-docs",
+  "private": true,
+  "type": "module",
+  "description": "Documentation for the Atelier Shopify theme, built from the theme source into docs/ for GitHub Pages.",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "shots": "node build/shots.mjs",
+    "serve": "npx --yes http-server docs -p 4173 -c-1"
+  }
+}
