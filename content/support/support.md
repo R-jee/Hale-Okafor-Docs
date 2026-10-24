@@ -1,6 +1,6 @@
 ---
 title: Support
-lead: How to get help with Atelier, what support covers, and how to keep your changes safe through theme updates.
+lead: How to get help with Hale & Okafor, what support covers, and how to keep your changes safe through theme updates.
 order: 0
 ---
 

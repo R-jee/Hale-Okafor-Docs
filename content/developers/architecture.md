@@ -1,6 +1,6 @@
 ---
 title: Architecture
-lead: How Atelier is put together: server-rendered Liquid, native web components, cascade-layered CSS and a strict size budget. No framework, no build step.
+lead: How Hale & Okafor is put together: server-rendered Liquid, native web components, cascade-layered CSS and a strict size budget. No framework, no build step.
 order: 10
 ---
 
