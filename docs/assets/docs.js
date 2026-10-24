@@ -1,4 +1,4 @@
-// Atelier docs: search, light/dark switch, mobile menu and the "on this page" highlight.
+// Hale & Okafor docs: search, light/dark switch, mobile menu and the "on this page" highlight.
 (() => {
   const root = document.body.dataset.root || '';
 

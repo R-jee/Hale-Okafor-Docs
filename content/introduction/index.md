@@ -1,11 +1,11 @@
 ---
-title: Welcome to Atelier
-lead: Atelier is a Shopify theme for makers who sell one-of-a-kind and small-batch objects: ceramics, furniture, glass, jewellery, textiles, small editions. Every piece is shown as a catalogued object, numbered, measured and kept on record, even after it sells.
+title: Welcome to Hale & Okafor
+lead: Hale & Okafor is a Shopify theme for makers who sell one-of-a-kind and small-batch objects: ceramics, furniture, glass, jewellery, textiles, small editions. Every piece is shown as a catalogued object, numbered, measured and kept on record, even after it sells.
 order: 0
 ---
 
 <section class="hero">
-<p class="record">Atelier · Kiln style · Shopify Online Store 2.0</p>
+<p class="record">Hale &amp; Okafor · Kiln style · Shopify Online Store 2.0</p>
 <h2>Made by hand, kept on record.</h2>
 <p>These docs cover everything in the theme: what it does differently, how to set it up, every section and block with its settings and screenshots, every template and theme setting, and how it's built for developers.</p>
 <a class="button button--fire" href="getting-started/install.html">Start setting up</a>
@@ -35,4 +35,4 @@ order: 0
 - **Ways to buy that suit handmade work.** Sealed-bid lots in a sale room, holds on one-of-a-kind pieces, offers, commissions taken as work orders, and studio visits.
 - **Built for a real shop.** Ten languages including right-to-left Arabic, Hebrew and Urdu, local currencies, filters, quick view, a packing-list cart, predictive search, accessibility to WCAG 2.2 AA and no app required for any of it.
 
-> Note: The demo store is **Hale & Okafor**, a two-person ceramics studio in Leeds. Every screenshot in these docs is taken from it, so you can open the same page and compare.
+> Note: The demo store is a two-person ceramics studio in Leeds, set up with the theme's own demo content. Every screenshot in these docs is taken from it, so you can open the same page and compare.

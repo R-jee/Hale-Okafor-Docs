@@ -14,7 +14,7 @@ import { escapeHtml as esc, inline, markdown, slugify } from './markdown.mjs';
 const ROOT = process.cwd();
 const OUT = join(ROOT, 'docs');
 const SITE = {
-  name: 'Atelier',
+  name: 'Hale & Okafor',
   tagline: 'Theme documentation',
   demo: 'https://hale-okafor-zjf5mtr1.myshopify.com',
   repo: 'https://github.com/R-jee/Hale-Okafor-Docs',
@@ -262,7 +262,7 @@ addPage({
   path: 'sections/index.html',
   group: 'sections',
   title: 'Sections overview',
-  lead: `Atelier has ${allSections.filter((s) => s.presets.length).length} sections you can add from the theme editor, plus the main sections of each template. None of them are Shopify's default sections: each was designed for the theme.`,
+  lead: `Hale & Okafor has ${allSections.filter((s) => s.presets.length).length} sections you can add from the theme editor, plus the main sections of each template. None of them are Shopify's default sections: each was designed for the theme.`,
   order: 0,
   body: SECTION_CATEGORIES.map((c) => {
     const items = allSections.filter((s) => CATEGORY_OF(s.type) === c.id);
@@ -308,7 +308,7 @@ addPage({
   path: 'blocks/index.html',
   group: 'blocks',
   title: 'Blocks overview',
-  lead: `Blocks are the pieces inside a section. Atelier ships ${allBlocks.length} theme blocks: most make up the object record on the product page; the rest are content pieces and footer columns.`,
+  lead: `Blocks are the pieces inside a section. Hale & Okafor ships ${allBlocks.length} theme blocks: most make up the object record on the product page; the rest are content pieces and footer columns.`,
   order: 0,
   body: BLOCK_CATEGORIES.map(
     (c) =>
@@ -379,7 +379,7 @@ addPage({
   path: 'templates/index.html',
   group: 'templates',
   title: 'Templates',
-  lead: 'A template decides which sections a kind of page starts with. Atelier has a template for every page type Shopify requires, plus alternate templates for lots, editions, commissions, the archive and the studio pages.',
+  lead: 'A template decides which sections a kind of page starts with. Hale & Okafor has a template for every page type Shopify requires, plus alternate templates for lots, editions, commissions, the archive and the studio pages.',
   order: 0,
   body: `<p>To give a product, collection or page an alternate template, open it in the Shopify admin and choose the template under <strong>Theme template</strong>. To edit a template, pick it from the page list at the top of the theme editor.</p>
   ${allTemplates
@@ -544,7 +544,7 @@ function layout(page) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(page.title)} · ${SITE.name} ${SITE.tagline}</title>
+<title>${esc(page.title)} · ${esc(SITE.name)} ${SITE.tagline}</title>
 <meta name="description" content="${esc(plain(page.lead || '').slice(0, 160))}">
 <link rel="icon" href="${root}assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -558,7 +558,7 @@ function layout(page) {
 <a class="skip" href="#content">Skip to content</a>
 <header class="topbar">
   <button class="topbar__menu" type="button" aria-controls="sidebar" aria-expanded="false" data-menu><span class="visually-hidden">Menu</span><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18" stroke="currentColor" stroke-width="1.5"/></svg></button>
-  <a class="brand" href="${root}index.html"><svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 6h12M12 6c0 6-5 8-5 15a9 5 0 0 0 18 0c0-7-5-9-5-15" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 28h24" stroke="currentColor" stroke-width="1.2"/></svg><span class="brand__name">${SITE.name}</span><span class="brand__tag record">${SITE.tagline}</span></a>
+  <a class="brand" href="${root}index.html"><svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 6h12M12 6c0 6-5 8-5 15a9 5 0 0 0 18 0c0-7-5-9-5-15" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 28h24" stroke="currentColor" stroke-width="1.2"/></svg><span class="brand__name">${esc(SITE.name)}</span><span class="brand__tag record">${SITE.tagline}</span></a>
   <div class="search" role="search">
     <label class="visually-hidden" for="search">Search the docs</label>
     <input id="search" type="search" placeholder="Search sections, settings, guides…" autocomplete="off" data-search>
@@ -584,7 +584,7 @@ function layout(page) {
       ${prev ? `<a class="pager__link" href="${root}${prev.path}"><span class="record">Previous</span>${esc(prev.title)}</a>` : '<span></span>'}
       ${next ? `<a class="pager__link pager__link--next" href="${root}${next.path}"><span class="record">Next</span>${esc(next.title)}</a>` : ''}
     </nav>
-    <footer class="foot record">© ${new Date().getFullYear()} ${SITE.name} theme · <a href="${root}support/support.html">Support</a> · <a href="${SITE.repo}" target="_blank" rel="noopener">Source of these docs</a></footer>
+    <footer class="foot record">© ${new Date().getFullYear()} ${esc(SITE.name)} theme · <a href="${root}support/support.html">Support</a> · <a href="${SITE.repo}" target="_blank" rel="noopener">Source of these docs</a></footer>
   </main>
   ${toc(page.headings || [])}
 </div>

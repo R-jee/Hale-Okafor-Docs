@@ -21,6 +21,6 @@ Choose **Drawer** or **Page** in **Theme settings → [Cart](../theme-settings/c
 
 ## Checkout and customer accounts
 
-Shopify hosts checkout and the new customer accounts (sign in, sign up, orders, profile). Atelier's demo brands them with the theme's colors, fonts, corner radius and logo through Shopify's checkout branding. To match your own store, use **Settings → Checkout → Customize** and **Settings → Customer accounts**.
+Shopify hosts checkout and the new customer accounts (sign in, sign up, orders, profile). The theme's demo brands them with the theme's colors, fonts, corner radius and logo through Shopify's checkout branding. To match your own store, use **Settings → Checkout → Customize** and **Settings → Customer accounts**.
 
 The account icon in the header uses Shopify's account component: sign in, or the customer's name and orders once signed in.
