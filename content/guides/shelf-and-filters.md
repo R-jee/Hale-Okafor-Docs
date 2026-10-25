@@ -19,13 +19,13 @@ The [collection banner](../sections/collection-banner.html) opens the page like 
 
 ## Filters
 
-Filters come from Shopify's **Search & Discovery** app (availability, price, product type, vendor, tags, metafields). Hale & Okafor draws them as a ledger: numbered groups (I, II, III), availability as stamps, glazes as tiles in their own colors, price as a slider with presets, counts in the record face. On desktop they sit in a sticky column (or a bar above the results); on phones they open in a full-height drawer with the sort.
+Filters come from Shopify's **Search & Discovery** app (availability, price, product type, vendor, tags, metafields). Hale Okafor draws them as a ledger: numbered groups (I, II, III), availability as stamps, glazes as tiles in their own colors, price as a slider with presets, counts in the record face. On desktop they sit in a sticky column (or a bar above the results); on phones they open in a full-height drawer with the sort.
 
 Active filters show as chips above the results, each removable, with **Clear all**. When nothing matches, the page says so and offers to remove a filter or show every object.
 
 ## The catalogue index (tags)
 
-Products can also carry **index tags** in the form `group:value`: `kind:Teapot`, `material:Ash glaze`, `technique:Carved`, `maker:Rowan Hale`, `year:2026`. Hale & Okafor lists them as extra filter groups (Kind, Materials, Technique, Maker, Year) that link to Shopify's tag URLs (`/collections/all/kind-teapot`), so they work without the Search & Discovery app and without JavaScript. Picking more tags narrows further; picked tags show as chips you can remove.
+Products can also carry **index tags** in the form `group:value`: `kind:Teapot`, `material:Ash glaze`, `technique:Carved`, `maker:Rowan Hale`, `year:2026`. Hale Okafor lists them as extra filter groups (Kind, Materials, Technique, Maker, Year) that link to Shopify's tag URLs (`/collections/all/kind-teapot`), so they work without the Search & Discovery app and without JavaScript. Picking more tags narrows further; picked tags show as chips you can remove.
 
 > Note: Tags can't be translated in Shopify. The theme carries translations for the common values (glazes, clays, forms) in its language files, so the index reads in the visitor's language.
 

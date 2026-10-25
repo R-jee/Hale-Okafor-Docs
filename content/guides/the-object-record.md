@@ -40,7 +40,7 @@ Each piece is a block in the [Product information](../sections/main-product.html
 
 ## Size, three ways
 
-Handmade objects are returned most often because they're a different size than expected. Hale & Okafor shows size three ways:
+Handmade objects are returned most often because they're a different size than expected. Hale Okafor shows size three ways:
 
 1. **Dimension lines** on the first photograph (Theme settings → Studio → Dimension lines).
 2. **The scale drawing**: the object, as its cut-out (`atelier.scale_image`) or as an outline, beside a reference everyone knows. The reference is picked by size (a coin for tiny pieces, a hand under 30 cm, a chair under 120 cm, a person above) or set per block.

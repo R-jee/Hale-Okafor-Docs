@@ -1,6 +1,6 @@
-# Hale & Okafor theme documentation
+# Hale Okafor theme documentation
 
-The documentation site for **Hale & Okafor**, a Shopify theme for makers of one-of-a-kind and small-batch objects. Published with GitHub Pages from `docs/`.
+The documentation site for **Hale Okafor**, a Shopify theme for makers of one-of-a-kind and small-batch objects. Published with GitHub Pages from `docs/`.
 
 **Read it:** https://r-jee.github.io/Hale-Okafor-Docs/ · **Demo store:** https://hale-okafor-zjf5mtr1.myshopify.com
 

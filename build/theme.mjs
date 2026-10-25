@@ -1,5 +1,5 @@
 /**
- * Reads the Hale & Okafor theme source (schemas, locales, doc headers, templates) into plain data for
+ * Reads the Hale Okafor theme source (schemas, locales, doc headers, templates) into plain data for
  * the docs pages. Nothing here is hand-maintained: settings tables always match the theme.
  *
  * THEME_DIR points at the theme repository (default: ../shopify-theme-solenne).
