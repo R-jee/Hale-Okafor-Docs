@@ -14,7 +14,7 @@ import { escapeHtml as esc, inline, markdown, slugify } from './markdown.mjs';
 const ROOT = process.cwd();
 const OUT = join(ROOT, 'docs');
 const SITE = {
-  name: 'Hale & Okafor',
+  name: 'Hale Okafor',
   tagline: 'Theme documentation',
   demo: 'https://hale-okafor-zjf5mtr1.myshopify.com',
   repo: 'https://github.com/R-jee/Hale-Okafor-Docs',
@@ -262,7 +262,7 @@ addPage({
   path: 'sections/index.html',
   group: 'sections',
   title: 'Sections overview',
-  lead: `Hale & Okafor has ${allSections.filter((s) => s.presets.length).length} sections you can add from the theme editor, plus the main sections of each template. None of them are Shopify's default sections: each was designed for the theme.`,
+  lead: `Hale Okafor has ${allSections.filter((s) => s.presets.length).length} sections you can add from the theme editor, plus the main sections of each template. None of them are Shopify's default sections: each was designed for the theme.`,
   order: 0,
   body: SECTION_CATEGORIES.map((c) => {
     const items = allSections.filter((s) => CATEGORY_OF(s.type) === c.id);
@@ -308,7 +308,7 @@ addPage({
   path: 'blocks/index.html',
   group: 'blocks',
   title: 'Blocks overview',
-  lead: `Blocks are the pieces inside a section. Hale & Okafor ships ${allBlocks.length} theme blocks: most make up the object record on the product page; the rest are content pieces and footer columns.`,
+  lead: `Blocks are the pieces inside a section. Hale Okafor ships ${allBlocks.length} theme blocks: most make up the object record on the product page; the rest are content pieces and footer columns.`,
   order: 0,
   body: BLOCK_CATEGORIES.map(
     (c) =>
@@ -379,7 +379,7 @@ addPage({
   path: 'templates/index.html',
   group: 'templates',
   title: 'Templates',
-  lead: 'A template decides which sections a kind of page starts with. Hale & Okafor has a template for every page type Shopify requires, plus alternate templates for lots, editions, commissions, the archive and the studio pages.',
+  lead: 'A template decides which sections a kind of page starts with. Hale Okafor has a template for every page type Shopify requires, plus alternate templates for lots, editions, commissions, the archive and the studio pages.',
   order: 0,
   body: `<p>To give a product, collection or page an alternate template, open it in the Shopify admin and choose the template under <strong>Theme template</strong>. To edit a template, pick it from the page list at the top of the theme editor.</p>
   ${allTemplates

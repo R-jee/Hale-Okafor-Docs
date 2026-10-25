@@ -1,18 +1,18 @@
 ---
-title: What makes Hale & Okafor different
-lead: Most Shopify themes are built for stock: many units of the same thing, sold in sizes and colors. Hale & Okafor is built for the opposite, a studio where each piece is made once, has its own story and size, and matters after it sells.
+title: What makes Hale Okafor different
+lead: Most Shopify themes are built for stock: many units of the same thing, sold in sizes and colors. Hale Okafor is built for the opposite, a studio where each piece is made once, has its own story and size, and matters after it sells.
 order: 10
 ---
 
 ## The idea: every piece is a catalogued object
 
-Hale & Okafor presents a shop the way a museum or a maker's studio catalogue presents a collection. Each product gets a **catalogue number** (`No. 0142`), its **measurements** drawn as technical dimension lines, its **materials, year and maker** on a wall label, and its **edition** stated plainly. Objects stand on a shelf at their relative heights, not in identical boxes. When a piece sells, it doesn't vanish: it's stamped, kept in the archive, and becomes a reason to commission the next one.
+Hale Okafor presents a shop the way a museum or a maker's studio catalogue presents a collection. Each product gets a **catalogue number** (`No. 0142`), its **measurements** drawn as technical dimension lines, its **materials, year and maker** on a wall label, and its **edition** stated plainly. Objects stand on a shelf at their relative heights, not in identical boxes. When a piece sells, it doesn't vanish: it's stamped, kept in the archive, and becomes a reason to commission the next one.
 
 ![The object record on the product page](../shots/sections/main-product.jpg)
 
 ## What it gives a maker's shop
 
-| The problem with a general theme | What Hale & Okafor does |
+| The problem with a general theme | What Hale Okafor does |
 | --- | --- |
 | A one-of-a-kind piece looks like a stock item with a SKU | An **object record**: number, name, wall label, edition state, specification ledger and making log ([The object record](../guides/the-object-record.html)) |
 | Sold pieces disappear, along with their photos and search traffic | A **sold state and archive**: sold objects are stamped, kept in the archive collection, and link to "Commission something similar" |
@@ -27,7 +27,7 @@ None of this needs an app. It runs on native Shopify metafields and metaobjects 
 
 ## A design you can recognise without the logo
 
-Five things appear on every page, so the theme reads as Hale & Okafor even with someone else's photos:
+Five things appear on every page, so the theme reads as Hale Okafor even with someone else's photos:
 
 1. **Object numbers**, in a monospace "record" face with tabular figures, on cards, product pages, the cart and search.
 2. **Dimension lines**: thin technical-drawing lines with end ticks and a measurement (`H 18 cm`). They're information on photos and the signature mark elsewhere.
@@ -46,7 +46,7 @@ The type has three voices with one job each: a display serif for names and title
 
 ## Sections you won't find in other themes
 
-Every section was designed for Hale & Okafor; none are Shopify's default sections. A few that only make sense for makers:
+Every section was designed for Hale Okafor; none are Shopify's default sections. A few that only make sense for makers:
 
 - **[Kiln stage](../sections/kiln-stage.html)**: the opening of the home page, a lit vitrine with the object measured in its frame.
 - **[Kiln firing](../sections/kiln-firing.html)**: the firing told as a temperature climbing to its peak as you scroll.

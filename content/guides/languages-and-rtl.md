@@ -1,6 +1,6 @@
 ---
 title: Languages and right-to-left
-lead: Hale & Okafor is translated into ten languages, and Arabic, Hebrew and Urdu are laid out right to left throughout, from drawers to dimension lines.
+lead: Hale Okafor is translated into ten languages, and Arabic, Hebrew and Urdu are laid out right to left throughout, from drawers to dimension lines.
 order: 60
 ---
 

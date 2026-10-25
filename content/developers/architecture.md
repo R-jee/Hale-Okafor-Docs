@@ -1,6 +1,6 @@
 ---
 title: Architecture
-lead: How Hale & Okafor is put together: server-rendered Liquid, native web components, cascade-layered CSS and a strict size budget. No framework, no build step.
+lead: How Hale Okafor is put together: server-rendered Liquid, native web components, cascade-layered CSS and a strict size budget. No framework, no build step.
 order: 10
 ---
 
@@ -22,7 +22,7 @@ order: 10
 | `blocks/` | Theme blocks. Names starting with `_` are private to the sections that use them (footer columns) |
 | `snippets/` | Reusable Liquid, each with a `{% doc %}` header ([reference](snippets.html)) |
 | `assets/` | `core-*.js` (engine), `component-*.js` and `section-*.js`, `base.css`, `component-*.css`, `section-*.css`, `utility-*.css` (deferred), icons and images |
-| `config/` | `settings_schema.json` (theme settings) and `settings_data.json` (the Hale & Okafor preset's values) |
+| `config/` | `settings_schema.json` (theme settings) and `settings_data.json` (the Hale Okafor preset's values) |
 | `locales/` | Storefront strings in ten languages and the English schema strings |
 
 ## Rendering and data flow

@@ -1,6 +1,6 @@
 ---
 title: Motion, accessibility and speed
-lead: Movement in Hale & Okafor is scroll-driven and calm; it switches off for anyone who asks. The theme is built to WCAG 2.2 AA and keeps its pages light.
+lead: Movement in Hale Okafor is scroll-driven and calm; it switches off for anyone who asks. The theme is built to WCAG 2.2 AA and keeps its pages light.
 order: 90
 ---
 

@@ -16,7 +16,7 @@ order: 20
 
 **Theme settings → [Colors](../theme-settings/colors.html)**
 
-Hale & Okafor works with four color schemes, each a set of colors that work together:
+Hale Okafor works with four color schemes, each a set of colors that work together:
 
 | Scheme | Used for |
 | --- | --- |
@@ -31,7 +31,7 @@ Sections and blocks pick a scheme, so changing a scheme changes everywhere it's 
 
 **Theme settings → [Typography](../theme-settings/typography.html)**
 
-Hale & Okafor has three type voices: **Headings** (a display face for names and titles), **Body** (for reading) and **Record** (a monospace face for object numbers, measurements, prices and labels). Pick each from Shopify's font library; bold and italic load automatically.
+Hale Okafor has three type voices: **Headings** (a display face for names and titles), **Body** (for reading) and **Record** (a monospace face for object numbers, measurements, prices and labels). Pick each from Shopify's font library; bold and italic load automatically.
 
 ## 4. The studio record
 
