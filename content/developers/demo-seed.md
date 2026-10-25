@@ -46,4 +46,4 @@ Running it again is safe: it creates what's missing and leaves the rest.
 | `markets` | Markets with local currencies |
 | `languages`, `translations` | The ten languages, published, and the store content translated |
 | `branding`, `checkout` | Store branding; checkout and customer account branding (Plus or development store) |
-| `theme` | Pushes and publishes the theme with the Kiln style |
+| `theme` | Pushes and publishes the theme with its Hale & Okafor preset and the Kiln demo templates |

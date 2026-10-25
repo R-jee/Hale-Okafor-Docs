@@ -5,7 +5,7 @@ order: 0
 ---
 
 <section class="hero">
-<p class="record">Hale &amp; Okafor · Kiln style · Shopify Online Store 2.0</p>
+<p class="record">Hale &amp; Okafor · Ceramics demo · Shopify Online Store 2.0</p>
 <h2>Made by hand, kept on record.</h2>
 <p>These docs cover everything in the theme: what it does differently, how to set it up, every section and block with its settings and screenshots, every template and theme setting, and how it's built for developers.</p>
 <a class="button button--fire" href="getting-started/install.html">Start setting up</a>
