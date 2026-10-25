@@ -584,7 +584,7 @@ function layout(page) {
       ${prev ? `<a class="pager__link" href="${root}${prev.path}"><span class="record">Previous</span>${esc(prev.title)}</a>` : '<span></span>'}
       ${next ? `<a class="pager__link pager__link--next" href="${root}${next.path}"><span class="record">Next</span>${esc(next.title)}</a>` : ''}
     </nav>
-    <footer class="foot record">© ${new Date().getFullYear()} ${esc(SITE.name)} theme · <a href="${root}support/support.html">Support</a> · <a href="${SITE.repo}" target="_blank" rel="noopener">Source of these docs</a></footer>
+    <footer class="foot record">© ${new Date().getFullYear()} ${esc(SITE.name)} theme · <a href="${root}support/support.html">Support</a> · <a href="https://forms.gle/GX1VWC5YcmNa83U46" target="_blank" rel="noopener">Contact form</a> · <a href="${SITE.repo}" target="_blank" rel="noopener">Source of these docs</a></footer>
   </main>
   ${toc(page.headings || [])}
 </div>

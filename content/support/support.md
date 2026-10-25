@@ -12,7 +12,9 @@ order: 0
 
 ## Contact
 
-Open a request from the theme's page in the Shopify Theme Store (**Support**), or email the address listed there. Include:
+<p><a class="button button--fire" href="https://forms.gle/GX1VWC5YcmNa83U46" target="_blank" rel="noopener">Open the support form</a></p>
+
+Send your question through the [support form](https://forms.gle/GX1VWC5YcmNa83U46) (a Google Form). It's also linked from the theme's page in the Shopify Theme Store. Include:
 
 - your store's address (`your-store.myshopify.com`),
 - the page and section or block you're working on,

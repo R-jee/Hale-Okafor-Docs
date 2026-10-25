@@ -39,3 +39,7 @@ It shows while any lot is open (its `atelier.bidding_closes` is in the future). 
 ## Does the theme need any apps?
 
 No. Search & Discovery (free, by Shopify) adds filters and complementary products; Translate & Adapt (free) translates your content. Reviews apps that write Shopify's standard rating metafields work with the Rating block.
+
+## My question isn't here
+
+Send it through the [support form](https://forms.gle/GX1VWC5YcmNa83U46), with your store address, the page and section, and a screenshot. See [Support](support.html) for what support covers.
