@@ -38,7 +38,7 @@
         <p class="doc__lead">A maker's profile from their maker metaobject (portrait, name, where they work, biography) beside a short shelf of their objects, from a collection.</p>
       </header>
       <div class="shots"><figure class="shot shot--desktop"><img src="../shots/sections/maker.jpg" alt="maker on the demo store, desktop" loading="lazy"><figcaption>Desktop</figcaption></figure><figure class="shot shot--mobile"><img src="../shots/sections/maker-mobile.jpg" alt="maker on the demo store, mobile" loading="lazy"><figcaption>Mobile</figcaption></figure></div>
-      <div class="howitworks"><p class="record">How it works</p><p>Without a maker chosen, the store's first maker metaobject; a placeholder portrait when there is none.</p></div>
+      <div class="howitworks"><p class="record">How it works</p><p>The maker is the one recorded on those objects (atelier.maker), otherwise the store's first maker; a placeholder portrait when there is none. (The Theme Store allows pickers only for Shopify's standard metaobject types, so the maker is found through the objects rather than chosen directly.)</p></div>
       <dl class="facts">
         <div><dt>File</dt><dd><code>sections/maker.liquid</code></dd></div>
         <div><dt>Add it from</dt><dd>Add section → Maker</dd></div>
@@ -47,14 +47,9 @@
       </dl>
       <p class="where"><span class="record">Used on</span> <a class="chip" href="../templates/index.html#index">index</a> <a class="chip" href="../templates/index.html#page-studio">page.studio</a></p>
       <h2 id="settings"><a class="anchor" href="#settings" aria-hidden="true">#</a>Settings</h2>
-      <div class="table-wrap"><table class="summary"><thead><tr><th>Group</th><th>Settings</th></tr></thead><tbody><tr><td><a href="#general">1. General</a></td><td>Maker, Portrait, Name, Biography, Their work, Color scheme</td></tr><tr><td><a href="#spacing">2. Spacing</a></td><td>Top padding, Bottom padding</td></tr></tbody></table></div><h3 id="general"><a class="anchor" href="#general" aria-hidden="true">#</a><span class="num">1</span>General</h3>
+      <div class="table-wrap"><table class="summary"><thead><tr><th>Group</th><th>Settings</th></tr></thead><tbody><tr><td><a href="#general">1. General</a></td><td>Portrait, Name, Biography, Their work, Color scheme</td></tr><tr><td><a href="#spacing">2. Spacing</a></td><td>Top padding, Bottom padding</td></tr></tbody></table></div><h3 id="general"><a class="anchor" href="#general" aria-hidden="true">#</a><span class="num">1</span>General</h3>
       
-      <ul class="settings"><li class="setting" id="setting-maker">
-    <div class="setting__head"><strong>Maker</strong><span class="setting__type">Metaobject</span><code class="setting__id">maker</code></div>
-    <p class="setting__info">A maker metaobject: portrait, name, location and biography. Leave blank for the first maker in your store.</p>
-    
-    
-  </li><li class="setting" id="setting-image">
+      <ul class="settings"><li class="setting" id="setting-image">
     <div class="setting__head"><strong>Portrait</strong><span class="setting__type">Image</span><code class="setting__id">image</code></div>
     
     
@@ -71,7 +66,7 @@
     
   </li><li class="setting" id="setting-collection">
     <div class="setting__head"><strong>Their work</strong><span class="setting__type">Collection</span><code class="setting__id">collection</code></div>
-    <p class="setting__info">A collection of their objects, shown as a short shelf.</p>
+    <p class="setting__info">Their objects, shown beside the profile. The maker is the one recorded on these objects (atelier.maker).</p>
     
     
   </li><li class="setting" id="setting-color_scheme">
